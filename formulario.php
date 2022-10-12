@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 //conectar al formulario
 $nombre = $_POST['nombre'];
@@ -24,3 +24,4 @@ mail($para, $asunto, utf8_decode($mensaje), $header);
 
 // Redireccion posterior al envio del formulario
 header('Location:exito.html');
+?>
