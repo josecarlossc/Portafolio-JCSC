@@ -256,30 +256,28 @@
     <seccion id="contacto">
         <h3 class="titulo-seccion">Contactame ahora</h3>
         <div class="contenedor-form">
-       <!-- <form action="" method='POST' class='speaker-form'>
+            <form action="enviarcorreo.php" method='POST' class='speaker-form'>
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                    <input name="nombre" placeholder="Escribe tu nombre" required="required" size="8" type="text" class="input-mitad">
+                    <input name="email" placeholder="Direccion de Email" required="required" size="8" type="email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Asunto..." class="input-full">
+                    <input name="telefono" placeholder="Escribe tu numero de telefono" required="required" size="8" type="text" class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                    <input name="asunto" placeholder="Asunto..." required="required" size="8" type="text" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" placeholder="Escriba su mensaje" required="required" cols="30" rows="10" class="input-full"></textarea> 
                 </div>
                 <div class="fila">
                     <input type="submit" value="Enviar Mensaje" class="btn-enviar">
                 </div>
             </form>
-        </div> -->
-        
-        
-       
-
+        </div>
     </seccion>
-    
-    <div class="container">
-        <h1 class="text-left" style="color: #f3f3f3">Contactanos</h1>
+    <!--<div class="container">
+        <h1 class="text-left" style="color: #f3f3f3">Contactanos<h1>
         <div class="row">
             <div class="col-md-12">
                 <form method="post" action="enviarcorreo.php">
@@ -287,10 +285,10 @@
                         <li>
                             <div class="col-md-6">
                                 <input name="nombre" placeholder="Escribe tu nombre" required="required" size="8" type="text" />
-                            </div>
+                            </div> 
 
                             <div class="col-md-6">
-                                <input name="email" placeholder="Email" required="required" size="8" type="email" />
+                                <input name="email" placeholder="Direccion de Email" required="required" size="8" type="email" />
                             </div>
                         </li>
 
@@ -329,7 +327,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Seccion Footer -->
    <footer>
