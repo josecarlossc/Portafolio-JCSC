@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desarrollador JCSC</title>
+</head>
+<body>
+    <!-- Seccion inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>{JCSC}</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HARD SKILLS</a></li>
+                            <li><a href="#softskills" onclick="seleccionar(this)">SOFT SKILLS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu responsivo -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://api.whatsapp.com/send?phone=7714980613" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="http://www.linkedin.com/in/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#contacto" onclick="seleccionar(this)"><i class="fa-sharp fa-solid fa-envelope-open-text"></i></a>
+                        <a href="https://github.com/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy Jose Carlos, Desarrollador de Software</h2>
+                <p class="descripcion">Apasionado de las Tecnologías de la Información, la programación, la lectura de distintos textos, la innovación y del desarrollo tecnológico en general.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span> Jose Carlos</span></h2>
+            <h3>Desarrollador de Software</h3>
+            <p>Técnico en programación y estudiante de Ingeniería en Sistemas Computacionales</p>
+            <p>Amo la tecnología, para mi es de vital importancia la creación de soluciones a problemas del día a día ayudándose de las tecnologías de la información y las comunicaciones.</p>
+            <a href="resources/CV.pdf" download="CV Jose Carlos Solis Cano.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- Seccion Hard Skills -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">HARD SKILLS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-java"></i></span>
+                <h4>Java</h4>
+                <hr>
+                <p>Java es un lenguaje de propósito general capaz de ejecutarse en la mayoría de sistemas operativos y dispositivos, con una única base de código.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>SQL</h4>
+                <hr>
+                <p>El lenguaje de consulta estructurada (SQL) es un lenguaje de programación para almacenar y procesar información en una base de datos relacional. También puede usar SQL para mantener y optimizar el rendimiento de la base de datos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-laptop-code"></i></span>
+                <h4>C++</h4>
+                <hr>
+                <p>C++ es un lenguaje de programación orientado a objetos muy potente que evolucionó de la extensión de lenguaje informático “C” y que hoy en día sigue usándose para realizar programación estructurada de alto nivel y rendimiento, como sistemas operativos, videojuegos y aplicaciones en la nube.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+                <p>Python es un lenguaje multiparadigma  ampliamente utilizado en las aplicaciones web, el desarrollo de software, la ciencia de datos y el machine learning (ML),  se puede ejecutar en muchas plataformas diferentes.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-android"></i></span>
+                <h4>Desarrollo de aplicaciones Android</h4>
+                <hr>
+                <p>El desarrollo de aplicaciones móviles para Android es el conjunto de procesos y procedimientos involucrados en la escritura de software para dispositivos informáticos pequeños e inalámbricos, como teléfonos inteligentes y otros dispositivos portátiles que utilizan el sistema operativo Android.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-square-git"></i></span>
+                <h4>Git</h4>
+                <hr>
+                <p>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.</p>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-building-circle-check"></i></span>
+                <h4>Herramientas de ofimática</h4>
+                <hr>
+                <p>Son un conjunto de programas o software conocidos como suites ofimáticas, son usados en oficinas y sirven para diferentes funciones como crear, modificar, organizar, escanear, imprimir etc. archivos y documentos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-square-js"></i></i></span>
+                <h4>JavaScript</h4>
+                <hr>
+                <p>JavaScript es un lenguaje de programación interpretado, de secuencias de comandos que permite implementar funciones complejas en páginas web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>HTML</h4>
+                <hr>
+                <p>HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto”</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>CSS</h4>
+                <hr>
+                <p>CSS son las siglas en inglés de Cascading Style Sheets, que significa «hojas de esilo en cascada». Es un lenguaje que se usa para estilizar elementos escritos en un lenguaje de marcado como HTML.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-store"></i></span>
+                <h4>Prestahop</h4>
+                <hr>
+                <p>PrestaShop es una plataforma diseñada en PHP con licencia de «código abierto» u open source, cuya principal función y razón de ser es crear una tienda online, para que puedas vender tus propios productos a través de Internet.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-graduation-cap"></i></span>
+                <h4>Moodle</h4>
+                <hr>
+                <p>Moodle es una plataforma de aprendizaje diseñada para proporcionarle a educadores, administradores y estudiantes un sistema integrado único, robusto y seguro para crear ambientes de aprendizaje personalizados.</p>
+            </div>
+            
+        </div>
+        <div class="fila">
+                <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-wordpress"></i></span>
+                <h4>Wordpress</h4>
+                <hr>
+                <p>WordPress es el sistema de gestión de contenidos o CMS (content management system) más utilizado en el mundo en la actualidad.
+
+                    Permite publicar webs y contenidos para ellas de manera sencilla. Para ello utiliza archivos PHP combinados con una base de datos MySQL. Todo bajo el amparo del código abierto, software libre y la GPL, para hacerlo gratuito.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Seccion habilidades -->
+    <div class="contenedor-skills" id="softskills">
+        <h3>Soft Skills</h3>
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Responsabilidad</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Liderazgo</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Honestidad</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Solidaridad</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Creatividad</p>
+            </div>
+        </div> 
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Respeto</p>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Adaptación al cambio</p>
+            </div>
+        </div>  
+        
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Inteligencia emocional y empatía</p>
+            </div>
+        </div> 
+
+    </div>
+
+    <!-- Seccion Portafolio -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto1.png" alt="">
+                    <div class="info">
+                        <h3>Correcta Pronunciación y Traducción de idiomas</h3><br>
+                        <p>Es una aplicación pensada para todas aquellas personas que deseen conocer la correcta pronunciación de las palabras en diferentes idiomas. Al momento incluye Ingles (americano), Español (de México), Frances e Italiano.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto2.png" alt="">
+                    <div class="info">
+                        <h3>Sistema de información con punto de venta Miscelanea El Parque</h3><br>
+                        <p>Proyecto que consistió en la realización de un sistema de información con punto de venta</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/proyecto3.png" alt="">
+                    <div class="info">
+                        <h3>Proyecto operaciones Matemáticas</h3><br>
+                        <p>Proyecto creado en Visual Studio utilizando el lenguaje de programación C++</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+    <seccion id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+        <!--<form action="formulario.php" method='POST' class='speaker-form'>
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+                <div class="fila">
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </div>
+            </form>
+        </div>-->
+
+        <form action='formulario.php' method='POST' class='speaker-form'>
+            <div class='form-row'>
+                <label for='full-name'>Name</label>
+                <input id='full-name' name='full-name' type='text'/>
+            </div>
+            
+            <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email' name='email' type='email' placeholder='persona@example.com'/>
+            </div>
+
+            <fieldset class='legacy-form-row'>
+                <legend>Type of Talk</legend>
+                <input id='talk-type1' name='talk-type' type='radio' value='main-stage'/>
+                <label for='talk-type1' class='radio-label'>Main Stage</label>
+                <input id='talk-type2' name='talk-type' type='radio' value='workshop' checked/>
+                <label for='talk-type2' class='radio-label'>Workshop</label>
+            </fieldset>
+
+            <div class='form-row'>
+                <label for='abstract'>Abstracto</label>
+                <textarea id='abstract' name='textarea'></textarea>
+                <div class='instructions'>Describe your talk in 500 words or less</div>
+            </div>
+
+            <div class='form-row'>
+                <button>Submit</button>
+            </div>           
+
+        </form>
+
+    </seccion>
+    
+    <!-- Seccion Footer -->
+   <footer>
+       <p>Todos los derechos reservados 2022</p>
+       <div class="redes">
+        <a href="https://api.whatsapp.com/send?phone=7714980613" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="http://www.linkedin.com/in/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#contacto" onclick="seleccionar(this)"><i class="fa-sharp fa-solid fa-envelope-open-text"></i></a>
+        <a href="https://github.com/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    </div>
+   </footer> 
+   <script src="script.js"></script>
+</body>
+</html>

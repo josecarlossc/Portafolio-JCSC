@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desarrollador JCSC</title>
+</head>
+<body>
+    <!-- Seccion inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>{JCSC}</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">HARD SKILLS</a></li>
+                            <li><a href="#softskills" onclick="seleccionar(this)">SOFT SKILLS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Iconos del menu responsivo -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://api.whatsapp.com/send?phone=7714980613" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="http://www.linkedin.com/in/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#contacto" onclick="seleccionar(this)"><i class="fa-sharp fa-solid fa-envelope-open-text"></i></a>
+                        <a href="https://github.com/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h2>Gracias por su mensaje</h2>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        setTimeout(function(){
+            window.location.replace("index.html");
+        },2000)
+    </script>
+
+
+    <!-- Seccion Footer -->
+   <footer>
+       <p>Todos los derechos reservados 2022</p>
+       <div class="redes">
+        <a href="https://api.whatsapp.com/send?phone=7714980613" target="_blank" rel="noopener noreferrer" ><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="http://www.linkedin.com/in/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#contacto" onclick="seleccionar(this)"><i class="fa-sharp fa-solid fa-envelope-open-text"></i></a>
+        <a href="https://github.com/josecarlossc" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    </div>
+   </footer> 
+   <script src="script.js"></script>
+</body>
+</html>
